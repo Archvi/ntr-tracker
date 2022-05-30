@@ -1,12 +1,73 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8"/>
+        <title>#(title)</title>
+        <link rel="stylesheet" href="styles/starwar.css"/>
+    </head>
+    <body>
+        <!-- ALL CREDIT FOR THE SCROLLING TEXT GOES TO
+        Craig Buckler
+        http://www.sitepoint.com/css3-starwars-scrolling-text/
 
-  <title>#(title)</title>
-</head>
+        Blame me for the music via embedded video bit
+        -->
+        <p id="start">
+        <span>
+            Next Trial Run (簡稱NTR)
+        </span>
+        <br/>
+        持有者名為 FO毛 (FOMO)
+        <br/>
+        <br/>
+        定價為0.2E，係一個屬於試當真Phase 2嘅尊貴會籍。作為試當真下一個試驗項目，推出的不僅限於一張張圖片，背後更代表了一份信念、一個會籍及一個社群。 NTR的持有者等於擁有試當真尊貴會籍，享有優先、優惠甚至免費的福利。 NTR由過去年半時間的試映劇場入面精選Cap圖，每張獨具意義。
+        </p>
 
-<body>
-  <h1>#(title)</h1>
-</body>
+        <h1>
+            <img src="/images/tne.svg" alt="Star"/>
+            <sub>
+                Phase Two
+                <img src="/images/ntr.svg" alt="Wars"/>
+            </sub>
+        </h1>
+
+
+        <div id="titles">
+            <div id="titlecontent">
+
+                <p class="center">到目前為止<br />
+                平均每位FO毛已獲得相等於 0.1039E 的福利！</p>
+
+                <p>首個福利於 2022年5月11日</p>
+
+                <p>NTR持有者（FO毛）手上的每張NTR可以隨機Free Mint一張由Harrison Tsui (@harrisontsui) 自製的試映劇場NFT poster！
+                </p>
+
+                <p>
+                Harrison 一直以來為試當真設計不同Fan Made Poster，而NTR將以下精選20款海報製成NFT，包括：《拳皇媽媽》 《再見豬豬》 《冰島灘鼓龍》 《UBER爸爸》 《Rap God》 《香甜粟米片》 《針情》 《每天外你多一些：直至倒瀉》 《親愛的》 《一鏡學修》 《黑鏡 Black Mirror》 《遇見100%的小精靈》 《沒有秋天的童話》 《葵興森林》Version 1 《葵興森林》Version 2 《記得到的她》 《孝AM I》 《心靈蘑菇湯：行路教室2022》 《狼人殺六人局》 《𠝹刀竊賊》各位NTR持有者（FO毛）手上的每張NTR可以隨機Free Mint一張Poster NFT。所有OpenSea Royalty Fee會全數給予Harrison！每張POSTER 首30天平均價為 0.0279E！
+                </p>
+
+                <p>首個FO毛專屬活動為《試玩毛》EP06嘅內部試玩！</p>
+
+                <p>五個被選中嘅FO毛於2022年5月17日進行試玩！過程完全保密！情況不詳！</p>
+
+                <p>首個NTR特約活動為「試咪都得」</p>
+                <p>於2022年5月23日，所有人都可以在NTR DISCORD嘅利毛臺上高歌一曲，活動由我阿爺無雷超，添添添甜同埋 Official_MiYuYan2017主持！</p>
+
+                <p>首個實體謝票場於 2022年6月5日假海運戲院舉行。</p>
+
+                <p>同時亦係全港首次NFT門票入場睇！參加者毋須提供個人資料，憑NFT認證入場。是次活動根據各FO毛持有NTR數量進行抽籤，幸運兒會獲得實體謝票場NFT免費空投，名額為360個。每個謝票場NFT 首30天平均價為 0.0226E！</p>
+
+                <p>首個舞台劇於 2022年7月8 舉行</p>
+
+                <p>舞台劇名為《一個舞台上不能接受的吻》，演出日期為2022年7月8日至2022年7月24日，地方為香港藝術中心壽臣劇院，一連20場！編劇為龍文康，導演為張銘耀，由朱栢康、陳苡臻主演，演出者為郭翠怡、倪安慈、林家𤋮。每個FO毛將可以免費換取最高票價門票1張及優先購買門票1張，門票定價為0.05E</p>
+
+                <p>未完！待續！資料只供參考，多謝！</p>
+            </div>
+        </div>
+
+        <audio controls autoplay>
+            <source src="/audios/starwar-theme.mp3" type="audio/mpeg">
+        </audio>
+    </body>
 </html>
