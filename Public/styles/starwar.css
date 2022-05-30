@@ -43,7 +43,7 @@ p#start
 }
 
 p#start span {
-    font-size: 15vw;
+    font-size: min(15vw, 3em);
     font-weight: 600;
 }
 
@@ -80,12 +80,12 @@ p#start span {
 h1
 {
     position: absolute;
-    width: 2.6em;
+    width: 5em;
     left: 50%;
-    top: 25%;
-    font-size: 30vw;
+    top: 15%;
+    font-size: 30vmin;
     text-align: center;
-    margin-left: -1.3em;
+    margin-left: -2.5em;
     line-height: 0.8em;
     letter-spacing: -0.05em;
     color: #FFF;
